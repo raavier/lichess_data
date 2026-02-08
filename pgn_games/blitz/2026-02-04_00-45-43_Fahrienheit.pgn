@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/tuKzudOL"]
+[Date "2026.02.04"]
+[Round "-"]
+[White "Fahrienheit"]
+[Black "r4v1"]
+[Result "1-0"]
+[GameId "tuKzudOL"]
+[UTCDate "2026.02.04"]
+[UTCTime "00:45:43"]
+[WhiteElo "1087"]
+[BlackElo "897"]
+[WhiteRatingDiff "+21"]
+[BlackRatingDiff "-8"]
+[Variant "Standard"]
+[TimeControl "300+0"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:00] } 1... e5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:04:54] } 2... d6 { [%clk 0:04:58] } 3. Nxe5 { [%clk 0:04:53] } 3... dxe5 { [%clk 0:04:55] } 4. Bc4 { [%clk 0:04:49] } 4... f5 { [%clk 0:04:50] } 5. exf5 { [%clk 0:04:47] } 5... Bxf5 { [%clk 0:04:49] } 6. Qh5+ { [%clk 0:04:39] } 6... g6 { [%clk 0:04:44] } 7. Qf3 { [%clk 0:04:29] } 7... Bxc2 { [%clk 0:04:40] } 8. Qf7# { [%clk 0:04:24] } 1-0
+

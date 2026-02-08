@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/0LrJLSnW"]
+[Date "2025.12.21"]
+[Round "-"]
+[White "ssokol76"]
+[Black "r4v1"]
+[Result "1-0"]
+[GameId "0LrJLSnW"]
+[UTCDate "2025.12.21"]
+[UTCTime "03:17:22"]
+[WhiteElo "1004"]
+[BlackElo "1027"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-60"]
+[Variant "Standard"]
+[TimeControl "300+0"]
+[ECO "A02"]
+[Opening "Bird Opening"]
+[Termination "Normal"]
+
+1. f4 { [%clk 0:05:00] } 1... f6 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:04:59] } 2... Nc6 { [%clk 0:04:55] } 3. b3 { [%clk 0:04:57] } 3... e5 { [%clk 0:04:54] } 4. Bb2 { [%clk 0:04:55] } 4... e4 { [%clk 0:04:47] } 5. Nd4 { [%clk 0:04:47] } 5... f5 { [%clk 0:04:43] } 6. e3 { [%clk 0:04:45] } 6... Nf6 { [%clk 0:04:40] } 7. Bb5 { [%clk 0:04:38] } 7... Nxd4 { [%clk 0:04:35] } 8. Bxd4 { [%clk 0:04:28] } 8... Bb4 { [%clk 0:04:20] } 9. a3 { [%clk 0:04:22] } 9... Bd6 { [%clk 0:04:12] } 10. d3 { [%clk 0:04:05] } 10... O-O { [%clk 0:04:06] } 11. Bc4+ { [%clk 0:03:44] } 11... Kh8 { [%clk 0:04:04] } 12. b4 { [%clk 0:03:40] } 12... Ng4 { [%clk 0:03:43] } 13. dxe4 { [%clk 0:03:01] } 13... fxe4 { [%clk 0:03:31] } 14. Qxg4 { [%clk 0:02:54] } 14... c6 { [%clk 0:03:12] } 15. Qxg7# { [%clk 0:02:51] } 1-0
+

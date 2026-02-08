@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/yQR3bpXI"]
+[Date "2026.01.14"]
+[Round "-"]
+[White "CHUSFM"]
+[Black "r4v1"]
+[Result "1-0"]
+[GameId "yQR3bpXI"]
+[UTCDate "2026.01.14"]
+[UTCTime "22:29:42"]
+[WhiteElo "1095"]
+[BlackElo "958"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-18"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... e5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:02:59] } 2... d6 { [%clk 0:02:57] } 3. d4 { [%clk 0:02:57] } 3... Nc6 { [%clk 0:02:53] } 4. d5 { [%clk 0:02:56] } 4... Nce7 { [%clk 0:02:44] } 5. Bb5+ { [%clk 0:02:52] } 5... c6 { [%clk 0:02:41] } 6. dxc6 { [%clk 0:02:51] } 6... bxc6 { [%clk 0:02:39] } 7. Bc4 { [%clk 0:02:48] } 7... f5 { [%clk 0:02:35] } 8. exf5 { [%clk 0:02:46] } 8... Bxf5 { [%clk 0:02:33] } 9. Ng5 { [%clk 0:02:35] } 9... Nd5 { [%clk 0:02:27] } 10. Bxd5 { [%clk 0:02:30] } 10... cxd5 { [%clk 0:02:26] } 11. Qxd5 { [%clk 0:02:29] } 11... Qxg5 { [%clk 0:02:24] } 12. Qxa8+ { [%clk 0:02:27] } 12... Qd8 { [%clk 0:02:20] } 13. Qc6+ { [%clk 0:02:24] } 13... Qd7 { [%clk 0:02:17] } 14. Qa8+ { [%clk 0:02:22] } 14... Qd8 { [%clk 0:02:15] } 15. Qc6+ { [%clk 0:02:21] } 15... Bd7 { [%clk 0:02:14] } 16. Qd5 { [%clk 0:02:18] } 16... Be7 { [%clk 0:02:10] } 17. O-O { [%clk 0:02:10] } 17... Nf6 { [%clk 0:02:08] } 18. Qf3 { [%clk 0:02:08] } 18... O-O { [%clk 0:02:07] } 19. Nc3 { [%clk 0:02:07] } 19... e4 { [%clk 0:02:04] } 20. Nxe4 { [%clk 0:02:03] } 20... Nxe4 { [%clk 0:02:02] } 21. Qxe4 { [%clk 0:02:03] } 21... Bh4 { [%clk 0:01:57] } 22. Qd5+ { [%clk 0:02:01] } 22... Kh8 { [%clk 0:01:54] } 23. Be3 { [%clk 0:01:57] } 23... Re8 { [%clk 0:01:47] } 24. Rab1 { [%clk 0:01:55] } 24... Qf6 { [%clk 0:01:44] } 25. c3 { [%clk 0:01:49] } 25... Qg6 { [%clk 0:01:25] } 26. Bd4 { [%clk 0:01:47] } 26... Bh3 { [%clk 0:01:21] } 27. g3 { [%clk 0:01:45] } 27... Bxg3 { [%clk 0:01:15] } 28. fxg3 { [%clk 0:01:42] } 28... Re2 { [%clk 0:01:10] } 29. Rf8# { [%clk 0:01:40] } 1-0
+

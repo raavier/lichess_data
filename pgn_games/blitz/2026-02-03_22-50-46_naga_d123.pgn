@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/UyeXj5IT"]
+[Date "2026.02.03"]
+[Round "-"]
+[White "r4v1"]
+[Black "naga_d123"]
+[Result "0-1"]
+[GameId "UyeXj5IT"]
+[UTCDate "2026.02.03"]
+[UTCTime "22:50:46"]
+[WhiteElo "919"]
+[BlackElo "783"]
+[WhiteRatingDiff "-22"]
+[BlackRatingDiff "+8"]
+[Variant "Standard"]
+[TimeControl "300+0"]
+[ECO "A40"]
+[Opening "Englund Gambit Declined: Reversed French"]
+[Termination "Time forfeit"]
+
+1. d4 { [%clk 0:05:00] } 1... e5 { [%clk 0:05:00] } 2. e3 { [%clk 0:04:57] } 2... e4 { [%clk 0:04:57] } 3. c4 { [%clk 0:04:50] } 3... c6 { [%clk 0:04:55] } 4. Qc2 { [%clk 0:04:48] } 4... d5 { [%clk 0:04:53] } 5. Nc3 { [%clk 0:04:43] } 5... Bb4 { [%clk 0:04:46] } 6. Ne2 { [%clk 0:04:31] } 6... Bxc3+ { [%clk 0:04:32] } 7. Nxc3 { [%clk 0:04:30] } 7... Nf6 { [%clk 0:04:21] } 8. cxd5 { [%clk 0:04:27] } 8... cxd5 { [%clk 0:04:20] } 9. Bb5+ { [%clk 0:04:15] } 9... Bd7 { [%clk 0:04:17] } 10. b3 { [%clk 0:04:05] } 10... a6 { [%clk 0:04:16] } 11. Ba4 { [%clk 0:04:02] } 11... b5 { [%clk 0:04:14] } 12. Nxd5 { [%clk 0:03:47] } 12... Nxd5 { [%clk 0:04:10] } 13. Qxe4+ { [%clk 0:03:41] } 13... Be6 { [%clk 0:04:06] } 14. Bxb5+ { [%clk 0:03:31] } 14... axb5 { [%clk 0:04:05] } 15. O-O { [%clk 0:03:23] } 15... O-O { [%clk 0:03:58] } 16. a4 { [%clk 0:03:16] } 16... b4 { [%clk 0:03:55] } 17. Bd2 { [%clk 0:03:12] } 17... Nc3 { [%clk 0:03:49] } 18. Qxa8 { [%clk 0:03:06] } 18... Ne2+ { [%clk 0:03:43] } 19. Kh1 { [%clk 0:03:00] } 19... Bd5 { [%clk 0:03:34] } 20. Bxb4 { [%clk 0:02:54] } 20... Bxa8 { [%clk 0:03:20] } 21. Bxf8 { [%clk 0:02:51] } 21... Kxf8 { [%clk 0:03:18] } 22. Ra2 { [%clk 0:02:50] } 22... Qg5 { [%clk 0:03:13] } 23. Rg1 { [%clk 0:02:19] } 23... Nxg1 { [%clk 0:03:09] } 24. d5 { [%clk 0:02:10] } 24... Bxd5 { [%clk 0:03:05] } 25. f3 { [%clk 0:02:06] } 25... Nxf3 { [%clk 0:03:02] } 26. Rf2 { [%clk 0:02:03] } 26... Ne1 { [%clk 0:02:51] } 27. Kg1 { [%clk 0:01:53] } 27... Bxg2 { [%clk 0:02:40] } 28. Rxf7+ { [%clk 0:01:43] } 28... Kxf7 { [%clk 0:02:36] } 0-1
+

@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/HuOT3tgg"]
+[Date "2026.02.03"]
+[Round "-"]
+[White "r4v1"]
+[Black "StephenThomas"]
+[Result "1-0"]
+[GameId "HuOT3tgg"]
+[UTCDate "2026.02.03"]
+[UTCTime "21:35:25"]
+[WhiteElo "905"]
+[BlackElo "864"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-5"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:03:00] } 1... e6 { [%clk 0:03:00] } 2. c4 { [%clk 0:02:58] } 2... Nc6 { [%clk 0:02:59] } 3. e3 { [%clk 0:02:57] } 3... d5 { [%clk 0:02:59] } 4. Nc3 { [%clk 0:02:56] } 4... dxc4 { [%clk 0:02:58] } 5. Bxc4 { [%clk 0:02:55] } 5... Bb4 { [%clk 0:02:58] } 6. Bd2 { [%clk 0:02:53] } 6... Bxc3 { [%clk 0:02:57] } 7. Bxc3 { [%clk 0:02:51] } 7... Nf6 { [%clk 0:02:57] } 8. Nf3 { [%clk 0:02:48] } 8... Ne4 { [%clk 0:02:56] } 9. Qc2 { [%clk 0:02:43] } 9... O-O { [%clk 0:02:50] } 10. Qxe4 { [%clk 0:02:40] } 1-0
+

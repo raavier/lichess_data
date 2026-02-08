@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/gvd7mjfg"]
+[Date "2026.01.05"]
+[Round "-"]
+[White "Hadiff0391"]
+[Black "r4v1"]
+[Result "1-0"]
+[GameId "gvd7mjfg"]
+[UTCDate "2026.01.05"]
+[UTCTime "02:29:17"]
+[WhiteElo "928"]
+[BlackElo "983"]
+[WhiteRatingDiff "+34"]
+[BlackRatingDiff "-42"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[Termination "Normal"]
+
+1. Nf3 { [%clk 0:03:00] } 1... Nc6 { [%clk 0:03:00] } 2. e4 { [%clk 0:02:58] } 2... e5 { [%clk 0:02:59] } 3. Bc4 { [%clk 0:02:56] } 3... Nf6 { [%clk 0:02:39] } 4. d3 { [%clk 0:02:54] } 4... d6 { [%clk 0:02:32] } 5. Ng5 { [%clk 0:02:50] } 5... Be6 { [%clk 0:02:20] } 6. Nxe6 { [%clk 0:02:47] } 6... fxe6 { [%clk 0:02:19] } 7. O-O { [%clk 0:02:45] } 7... d5 { [%clk 0:02:16] } 8. exd5 { [%clk 0:02:39] } 8... exd5 { [%clk 0:02:14] } 9. Bb5 { [%clk 0:02:36] } 9... Qd7 { [%clk 0:02:05] } 10. Bg5 { [%clk 0:02:34] } 10... Be7 { [%clk 0:01:58] } 11. Nc3 { [%clk 0:02:31] } 11... a6 { [%clk 0:01:55] } 12. Bxc6 { [%clk 0:02:25] } 12... Qxc6 { [%clk 0:01:53] } 13. Bxf6 { [%clk 0:02:22] } 13... Qxf6 { [%clk 0:01:49] } 14. Qe2 { [%clk 0:02:16] } 14... d4 { [%clk 0:01:45] } 15. Nd5 { [%clk 0:02:14] } 15... Qe6 { [%clk 0:01:37] } 16. Nxc7+ { [%clk 0:02:13] } 16... Kf7 { [%clk 0:01:31] } 17. Nxe6 { [%clk 0:02:13] } 17... Kxe6 { [%clk 0:01:28] } 18. Qg4+ { [%clk 0:02:10] } 18... Kd5 { [%clk 0:01:27] } 19. Qxg7 { [%clk 0:02:09] } 19... Bb4 { [%clk 0:01:24] } 20. Qd7+ { [%clk 0:02:05] } 20... Kc5 { [%clk 0:01:21] } 21. Qxb7 { [%clk 0:02:01] } 21... a5 { [%clk 0:01:18] } 22. Qe4 { [%clk 0:02:00] } 22... a4 { [%clk 0:01:15] } 23. Qxe5+ { [%clk 0:01:58] } 23... Kc6 { [%clk 0:01:13] } 24. Qxd4 { [%clk 0:01:57] } 24... Rhd8 { [%clk 0:01:08] } 25. Qc4+ { [%clk 0:01:54] } 25... Kd6 { [%clk 0:01:03] } 26. Qxb4+ { [%clk 0:01:52] } 26... Ke5 { [%clk 0:01:01] } 27. Qe7+ { [%clk 0:01:48] } 27... Kf4 { [%clk 0:00:56] } 28. Qxh7 { [%clk 0:01:48] } 28... a3 { [%clk 0:00:47] } 29. Qe4+ { [%clk 0:01:45] } 29... Kg5 { [%clk 0:00:43] } 30. f4+ { [%clk 0:01:43] } 30... Kg4 { [%clk 0:00:41] } 31. h3+ { [%clk 0:01:41] } 31... Kg3 { [%clk 0:00:39] } 32. Qf3+ { [%clk 0:01:39] } 32... Kh4 { [%clk 0:00:37] } 33. Qg4# { [%clk 0:01:37] } 1-0
+

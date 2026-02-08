@@ -12,7 +12,7 @@ dist/
 *.egg-info/
 
 # PGN files (comentar esta linha se quiser versionar os PGNs)
-pgn_games/
+#pgn_games/
 
 # IDE
 .vscode/

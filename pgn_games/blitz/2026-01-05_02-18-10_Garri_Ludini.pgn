@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/AyPOYyh4"]
+[Date "2026.01.05"]
+[Round "-"]
+[White "r4v1"]
+[Black "Garri_Ludini"]
+[Result "0-1"]
+[GameId "AyPOYyh4"]
+[UTCDate "2026.01.05"]
+[UTCTime "02:18:10"]
+[WhiteElo "967"]
+[BlackElo "1061"]
+[WhiteRatingDiff "-39"]
+[BlackRatingDiff "+4"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "D10"]
+[Opening "Slav Defense"]
+[Termination "Time forfeit"]
+
+1. d4 { [%clk 0:03:00] } 1... d5 { [%clk 0:03:00] } 2. c4 { [%clk 0:02:53] } 2... c6 { [%clk 0:02:57] } 3. Nc3 { [%clk 0:02:51] } 3... dxc4 { [%clk 0:02:55] } 4. e3 { [%clk 0:02:49] } 4... Nf6 { [%clk 0:02:53] } 5. Bxc4 { [%clk 0:02:48] } 5... e6 { [%clk 0:02:49] } 6. Nf3 { [%clk 0:02:45] } 6... c5 { [%clk 0:02:41] } 7. O-O { [%clk 0:02:40] } 7... cxd4 { [%clk 0:02:39] } 8. Nxd4 { [%clk 0:02:35] } 8... e5 { [%clk 0:02:36] } 9. Bb5+ { [%clk 0:02:27] } 9... Bd7 { [%clk 0:02:29] } 10. Bxd7+ { [%clk 0:02:23] } 10... Qxd7 { [%clk 0:02:28] } 11. Nf3 { [%clk 0:02:07] } 11... Qc6 { [%clk 0:02:15] } 12. Nxe5 { [%clk 0:02:02] } 12... Qe6 { [%clk 0:02:04] } 13. Qa4+ { [%clk 0:01:50] } 13... Nbd7 { [%clk 0:02:00] } 14. Nxd7 { [%clk 0:01:46] } 14... Nxd7 { [%clk 0:02:00] } 15. e4 { [%clk 0:01:39] } 15... Be7 { [%clk 0:01:52] } 16. Bf4 { [%clk 0:01:31] } 16... O-O { [%clk 0:01:50] } 17. Rfd1 { [%clk 0:01:22] } 17... Nc5 { [%clk 0:01:49] } 18. Qb5 { [%clk 0:01:12] } 18... a6 { [%clk 0:01:41] } 19. Qe2 { [%clk 0:00:52] } 19... Rad8 { [%clk 0:01:20] } 20. Rxd8 { [%clk 0:00:47] } 20... Rxd8 { [%clk 0:01:20] } 21. h3 { [%clk 0:00:44] } 21... b5 { [%clk 0:01:14] } 22. e5 { [%clk 0:00:39] } 22... f6 { [%clk 0:01:06] } 23. exf6 { [%clk 0:00:21] } 23... Qxf6 { [%clk 0:01:05] } 24. Ne4 { [%clk 0:00:14] } 24... Qxf4 { [%clk 0:00:54] } 25. Nxc5 { [%clk 0:00:12] } 25... Bxc5 { [%clk 0:00:52] } 26. Rc1 { [%clk 0:00:09] } 26... Rc8 { [%clk 0:00:46] } 27. Rxc5 { [%clk 0:00:08] } 27... Rxc5 { [%clk 0:00:44] } 28. g3 { [%clk 0:00:07] } 28... Qb4 { [%clk 0:00:39] } 29. f4 { [%clk 0:00:05] } 29... Qd4+ { [%clk 0:00:32] } 30. Kg2 { [%clk 0:00:03] } 30... Rc1 { [%clk 0:00:31] } 31. Qf2 { [%clk 0:00:02] } 31... Qxf2+ { [%clk 0:00:29] } 32. Kxf2 { [%clk 0:00:01] } 32... Rc2+ { [%clk 0:00:28] } 33. Kf3 { [%clk 0:00:00] } 33... Rxb2 { [%clk 0:00:28] } 0-1
+

@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/KeGxG9ab"]
+[Date "2026.02.03"]
+[Round "-"]
+[White "r4v1"]
+[Black "ela98"]
+[Result "0-1"]
+[GameId "KeGxG9ab"]
+[UTCDate "2026.02.03"]
+[UTCTime "02:12:16"]
+[WhiteElo "921"]
+[BlackElo "960"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "300+0"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:00] } 1... d5 { [%clk 0:05:00] } 2. c4 { [%clk 0:04:59] } 2... dxc4 { [%clk 0:04:59] } 3. Nc3 { [%clk 0:04:58] } 3... Nf6 { [%clk 0:04:49] } 4. e3 { [%clk 0:04:56] } 4... Nc6 { [%clk 0:04:49] } 5. Bxc4 { [%clk 0:04:55] } 5... e6 { [%clk 0:04:47] } 6. g3 { [%clk 0:04:54] } 6... Bb4 { [%clk 0:04:45] } 7. Bd2 { [%clk 0:04:52] } 7... O-O { [%clk 0:04:44] } 8. Nf3 { [%clk 0:04:50] } 8... Bd7 { [%clk 0:04:41] } 9. a3 { [%clk 0:04:49] } 9... Bxc3 { [%clk 0:04:40] } 10. Bxc3 { [%clk 0:04:47] } 10... Na5 { [%clk 0:04:37] } 11. Qa4 { [%clk 0:04:44] } 11... Bxa4 { [%clk 0:04:32] } 12. O-O { [%clk 0:04:41] } 12... Nxc4 { [%clk 0:04:30] } 13. Bb4 { [%clk 0:04:35] } 13... Re8 { [%clk 0:04:23] } 14. Rac1 { [%clk 0:04:31] } 14... Nxb2 { [%clk 0:04:17] } 15. Ne5 { [%clk 0:04:27] } 15... c6 { [%clk 0:04:04] } 16. h4 { [%clk 0:04:21] } 16... Nd5 { [%clk 0:04:01] } 17. Bc5 { [%clk 0:04:08] } 17... Nd3 { [%clk 0:03:56] } 18. Nxd3 { [%clk 0:04:05] } 18... Bb5 { [%clk 0:03:50] } 19. Rfd1 { [%clk 0:03:52] } 19... Bxd3 { [%clk 0:03:47] } 20. Rxd3 { [%clk 0:03:51] } 20... b6 { [%clk 0:03:47] } 21. Bd6 { [%clk 0:03:47] } 21... Qxd6 { [%clk 0:03:43] } 22. e4 { [%clk 0:03:43] } 22... Nf6 { [%clk 0:03:38] } 23. e5 { [%clk 0:03:41] } 23... Qe7 { [%clk 0:03:28] } 24. exf6 { [%clk 0:03:40] } 24... Qxf6 { [%clk 0:03:26] } 25. d5 { [%clk 0:03:37] } 25... Qf5 { [%clk 0:03:23] } 26. Re3 { [%clk 0:03:28] } 26... exd5 { [%clk 0:03:20] } 27. Rxe8+ { [%clk 0:03:21] } 27... Rxe8 { [%clk 0:03:18] } 28. Rxc6 { [%clk 0:03:19] } 28... f6 { [%clk 0:03:11] } 29. Rd6 { [%clk 0:03:09] } 29... Re1+ { [%clk 0:03:07] } 30. Kg2 { [%clk 0:03:05] } 30... Qe4+ { [%clk 0:03:02] } 31. Kh3 { [%clk 0:03:03] } 31... Rh1# { [%clk 0:02:54] } 0-1
+

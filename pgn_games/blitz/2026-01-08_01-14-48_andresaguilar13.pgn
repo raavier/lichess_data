@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/YkuPkdks"]
+[Date "2026.01.08"]
+[Round "-"]
+[White "r4v1"]
+[Black "andresaguilar13"]
+[Result "1-0"]
+[GameId "YkuPkdks"]
+[UTCDate "2026.01.08"]
+[UTCTime "01:14:48"]
+[WhiteElo "941"]
+[BlackElo "970"]
+[WhiteRatingDiff "+38"]
+[BlackRatingDiff "-8"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:03:00] } 1... d5 { [%clk 0:03:00] } 2. c4 { [%clk 0:02:57] } 2... dxc4 { [%clk 0:02:59] } 3. Nc3 { [%clk 0:02:52] } 3... e5 { [%clk 0:02:52] } 4. e3 { [%clk 0:02:50] } 4... exd4 { [%clk 0:02:50] } 5. exd4 { [%clk 0:02:49] } 5... Bb4 { [%clk 0:02:43] } 6. Bxc4 { [%clk 0:02:47] } 6... Nc6 { [%clk 0:02:29] } 7. Nf3 { [%clk 0:02:44] } 7... Bg4 { [%clk 0:02:23] } 8. O-O { [%clk 0:02:40] } 8... Nxd4 { [%clk 0:02:20] } 9. Qxd4 { [%clk 0:02:32] } 9... Bxf3 { [%clk 0:02:08] } 10. Qxg7 { [%clk 0:02:22] } 10... Bxc3 { [%clk 0:01:49] } 11. Qxf7# { [%clk 0:02:15] } 1-0
+

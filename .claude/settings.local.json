@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install -r requirements.txt)",
+      "Bash(python download_r4v1.py)",
+      "Bash(xargs cat)",
+      "Bash(find pgn_games -name \"*.pgn\" -type f -exec wc -l {} +)",
+      "Bash(git add -A)"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/okjcxvfg"]
+[Date "2026.01.20"]
+[Round "-"]
+[White "r4v1"]
+[Black "Visweswara123"]
+[Result "0-1"]
+[GameId "okjcxvfg"]
+[UTCDate "2026.01.20"]
+[UTCTime "17:10:05"]
+[WhiteElo "925"]
+[BlackElo "931"]
+[WhiteRatingDiff "-27"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "D31"]
+[Opening "Queen's Gambit Declined: Queen's Knight Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:03:00] } 1... d5 { [%clk 0:03:00] } 2. c4 { [%clk 0:02:59] } 2... e6 { [%clk 0:02:59] } 3. Nc3 { [%clk 0:02:57] } 3... dxc4 { [%clk 0:02:59] } 4. e3 { [%clk 0:02:55] } 4... Bb4 { [%clk 0:02:52] } 5. Bxc4 { [%clk 0:02:53] } 5... Bxc3+ { [%clk 0:02:50] } 6. bxc3 { [%clk 0:02:51] } 6... c6 { [%clk 0:02:49] } 7. Nf3 { [%clk 0:02:50] } 7... Ne7 { [%clk 0:02:47] } 8. O-O { [%clk 0:02:48] } 8... O-O { [%clk 0:02:45] } 9. Ba3 { [%clk 0:02:42] } 9... b5 { [%clk 0:02:43] } 10. Bb3 { [%clk 0:02:37] } 10... Bb7 { [%clk 0:02:40] } 11. Ne5 { [%clk 0:02:34] } 11... a5 { [%clk 0:02:37] } 12. Qh5 { [%clk 0:02:13] } 12... Ng6 { [%clk 0:02:27] } 13. Bxf8 { [%clk 0:02:07] } 13... Qxf8 { [%clk 0:02:24] } 14. e4 { [%clk 0:02:01] } 14... Nxe5 { [%clk 0:02:20] } 15. dxe5 { [%clk 0:01:58] } 15... c5 { [%clk 0:02:19] } 16. f4 { [%clk 0:01:52] } 16... Bxe4 { [%clk 0:02:17] } 17. f5 { [%clk 0:01:48] } 17... Bxf5 { [%clk 0:02:15] } 18. Rf2 { [%clk 0:01:30] } 18... Nc6 { [%clk 0:02:11] } 19. Bc2 { [%clk 0:01:29] } 19... Bxc2 { [%clk 0:02:02] } 20. Rxc2 { [%clk 0:01:27] } 20... b4 { [%clk 0:01:56] } 21. cxb4 { [%clk 0:01:25] } 21... Nxb4 { [%clk 0:01:51] } 22. Rxc5 { [%clk 0:01:22] } 22... Qxc5+ { [%clk 0:01:49] } 23. Kf1 { [%clk 0:01:17] } 23... Qc4+ { [%clk 0:01:41] } 24. Kf2 { [%clk 0:01:14] } 24... Qd4+ { [%clk 0:01:38] } 25. Ke2 { [%clk 0:01:10] } 25... Qxa1 { [%clk 0:01:36] } 26. g4 { [%clk 0:01:07] } 26... Nd5 { [%clk 0:01:34] } 27. g5 { [%clk 0:01:06] } 27... Nf4+ { [%clk 0:01:33] } 0-1
+

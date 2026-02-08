@@ -91,9 +91,9 @@ class LichessDownloader:
         response.raise_for_status()
 
         pgn_content = ""
-        for chunk in response.iter_content(chunk_size=8192, decode_unicode=True):
+        for chunk in response.iter_content(chunk_size=8192, decode_unicode=False):
             if chunk:
-                pgn_content += chunk
+                pgn_content += chunk.decode('utf-8')
 
         return pgn_content
 
@@ -110,29 +110,36 @@ class LichessDownloader:
         games = []
         current_game = []
         headers = {}
+        in_moves = False
 
         for line in pgn_content.split('\n'):
             if line.startswith('['):
-                # Extrai cabeçalho
-                match = re.match(r'\[(\w+)\s+"([^"]+)"\]', line)
-                if match:
-                    key, value = match.groups()
-                    headers[key] = value
-                current_game.append(line)
-            elif line.strip() == '' and current_game and not line.startswith('['):
-                # Fim do jogo
-                if current_game:
+                # Se estamos começando headers e já temos um jogo, salva o anterior
+                if current_game and in_moves:
                     games.append({
                         'pgn': '\n'.join(current_game),
                         'headers': headers.copy()
                     })
                     current_game = []
                     headers = {}
+                    in_moves = False
+
+                # Extrai cabeçalho
+                match = re.match(r'\[(\w+)\s+"([^"]+)"\]', line)
+                if match:
+                    key, value = match.groups()
+                    headers[key] = value
+                current_game.append(line)
+            elif line.strip() and not line.startswith('['):
+                # Linha com conteúdo (movimentos)
+                in_moves = True
+                current_game.append(line)
             else:
+                # Linha vazia
                 current_game.append(line)
 
         # Adiciona o último jogo se existir
-        if current_game:
+        if current_game and headers:
             games.append({
                 'pgn': '\n'.join(current_game),
                 'headers': headers.copy()
@@ -152,18 +159,18 @@ class LichessDownloader:
         """
         headers = game['headers']
 
-        # Extrai tipo de jogo (TimeControl)
-        time_control = headers.get('Event', 'Unknown')
+        # Extrai tipo de jogo (Event) - case insensitive
+        event = headers.get('Event', 'Unknown').lower()
 
-        if 'Bullet' in time_control:
+        if 'bullet' in event:
             return 'bullet'
-        elif 'Blitz' in time_control:
+        elif 'blitz' in event:
             return 'blitz'
-        elif 'Rapid' in time_control:
+        elif 'rapid' in event:
             return 'rapid'
-        elif 'Classical' in time_control:
+        elif 'classical' in event:
             return 'classical'
-        elif 'Correspondence' in time_control:
+        elif 'correspondence' in event:
             return 'correspondence'
         else:
             return 'other'

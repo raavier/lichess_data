@@ -1,0 +1,22 @@
+[Event "rated blitz game"]
+[Site "https://lichess.org/RwhKCehs"]
+[Date "2026.02.04"]
+[Round "-"]
+[White "r4v1"]
+[Black "Fahrienheit"]
+[Result "1-0"]
+[GameId "RwhKCehs"]
+[UTCDate "2026.02.04"]
+[UTCTime "00:46:59"]
+[WhiteElo "889"]
+[BlackElo "1108"]
+[WhiteRatingDiff "+22"]
+[BlackRatingDiff "-60"]
+[Variant "Standard"]
+[TimeControl "300+0"]
+[ECO "A40"]
+[Opening "Englund Gambit Declined: Reversed French"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:00] } 1... e5 { [%clk 0:05:00] } 2. e3 { [%clk 0:04:57] } 2... exd4 { [%clk 0:05:00] } 3. exd4 { [%clk 0:04:56] } 3... c5 { [%clk 0:04:51] } 4. d5 { [%clk 0:04:48] } 4... c4 { [%clk 0:04:47] } 5. Bxc4 { [%clk 0:04:47] } 5... Bc5 { [%clk 0:04:44] } 6. Qf3 { [%clk 0:04:37] } 6... Nh6 { [%clk 0:04:42] } 7. Bxh6 { [%clk 0:04:33] } 7... gxh6 { [%clk 0:04:36] } 8. Qe4+ { [%clk 0:04:20] } 8... Be7 { [%clk 0:04:30] } 9. Qe5 { [%clk 0:04:12] } 9... d6 { [%clk 0:04:28] } 10. Qxh8+ { [%clk 0:04:07] } 10... Bf8 { [%clk 0:04:25] } 11. Nf3 { [%clk 0:04:00] } 11... Qa5+ { [%clk 0:04:16] } 12. Nc3 { [%clk 0:03:52] } 12... Nd7 { [%clk 0:04:11] } 13. O-O { [%clk 0:03:50] } 13... h5 { [%clk 0:04:00] } 14. Bb5 { [%clk 0:03:46] } 14... a6 { [%clk 0:03:53] } 15. Rfe1+ { [%clk 0:03:42] } 15... Kd8 { [%clk 0:03:42] } 16. Bxd7 { [%clk 0:03:37] } 16... Bxd7 { [%clk 0:03:36] } 17. Qxf8+ { [%clk 0:03:36] } 17... Kc7 { [%clk 0:03:35] } 18. Qxa8 { [%clk 0:03:33] } 18... Qb5 { [%clk 0:03:29] } 19. Nxb5+ { [%clk 0:03:29] } 19... Kb6 { [%clk 0:03:26] } 20. Nxd6 { [%clk 0:03:25] } 20... Bg4 { [%clk 0:03:21] } 21. Qxb7+ { [%clk 0:03:22] } 21... Ka5 { [%clk 0:03:19] } 22. Re4 { [%clk 0:03:11] } 22... Bxf3 { [%clk 0:03:16] } 23. gxf3 { [%clk 0:03:08] } 23... f5 { [%clk 0:03:13] } 24. Qb4# { [%clk 0:03:06] } 1-0
+
