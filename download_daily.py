@@ -46,6 +46,16 @@ try:
         categorize=True
     )
 
+    # Busca e salva estatísticas do perfil
+    print("\n>> Gerando arquivo de estatisticas...")
+    try:
+        user_stats = downloader.get_user_stats()
+        stats_file = downloader.output_dir / "STATS.md"
+        downloader.create_stats_markdown(user_stats, stats_file)
+        print(f"[OK] Estatisticas salvas em: {stats_file}")
+    except Exception as e:
+        print(f"[!] Erro ao gerar estatisticas: {str(e)}")
+
     # Mostra estatísticas
     print("\n" + "="*60)
     print("[OK] ATUALIZACAO CONCLUIDA!")

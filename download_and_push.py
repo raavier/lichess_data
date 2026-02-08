@@ -60,6 +60,16 @@ try:
         print(f"\nTotal processado: {total} jogos")
         print("="*60)
 
+    # Busca e salva estatísticas do perfil (sempre, mesmo sem jogos novos)
+    print("\n>> Gerando arquivo de estatisticas...")
+    try:
+        user_stats = downloader.get_user_stats()
+        stats_file = downloader.output_dir / "STATS.md"
+        downloader.create_stats_markdown(user_stats, stats_file)
+        print(f"[OK] Estatisticas salvas em: {stats_file}")
+    except Exception as e:
+        print(f"[!] Erro ao gerar estatisticas: {str(e)}")
+
     # Git operations
     print("\n>> Iniciando operacoes Git...")
 

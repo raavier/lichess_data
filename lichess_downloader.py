@@ -29,6 +29,118 @@ class LichessDownloader:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
 
+    def get_user_stats(self) -> Dict:
+        """
+        Busca estatísticas do perfil do usuário no Lichess.
+
+        Returns:
+            Dicionário com as estatísticas do usuário
+        """
+        url = f"{self.BASE_URL}/user/{self.username}"
+
+        headers = {
+            "Accept": "application/json"
+        }
+
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+
+        return response.json()
+
+    def create_stats_markdown(self, stats: Dict, filepath: Optional[str] = None) -> str:
+        """
+        Cria um arquivo markdown com as estatísticas do usuário.
+
+        Args:
+            stats: Dicionário com estatísticas do usuário
+            filepath: Caminho para salvar o arquivo (opcional)
+
+        Returns:
+            Conteúdo markdown gerado
+        """
+        perfs = stats.get('perfs', {})
+        count = stats.get('count', {})
+        play_time = stats.get('playTime', {})
+        created_at = stats.get('createdAt', 0)
+        seen_at = stats.get('seenAt', 0)
+
+        # Converte timestamps para datas legíveis
+        created_date = datetime.fromtimestamp(created_at / 1000).strftime('%d/%m/%Y')
+        last_seen = datetime.fromtimestamp(seen_at / 1000).strftime('%d/%m/%Y %H:%M')
+
+        # Calcula tempo total em horas
+        total_hours = play_time.get('total', 0) / 3600 if play_time else 0
+
+        # Constrói o conteúdo markdown
+        md_content = f"""# Estatisticas Lichess - {self.username}
+
+**Atualizado em:** {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}
+
+## Informacoes Gerais
+
+- **Usuario:** {self.username}
+- **Perfil:** https://lichess.org/@/{self.username}
+- **Conta criada:** {created_date}
+- **Ultima atividade:** {last_seen}
+- **Tempo total jogando:** {total_hours:.1f} horas
+
+## Estatisticas de Partidas
+
+- **Total de partidas:** {count.get('all', 0)}
+- **Partidas ranqueadas:** {count.get('rated', 0)}
+- **Vitorias:** {count.get('win', 0)} ({count.get('win', 0) / count.get('all', 1) * 100:.1f}%)
+- **Derrotas:** {count.get('loss', 0)} ({count.get('loss', 0) / count.get('all', 1) * 100:.1f}%)
+- **Empates:** {count.get('draw', 0)} ({count.get('draw', 0) / count.get('all', 1) * 100:.1f}%)
+
+## Ratings por Modalidade
+
+"""
+
+        # Ordena modalidades por número de jogos
+        game_modes = []
+        for mode, data in perfs.items():
+            if isinstance(data, dict) and 'rating' in data:
+                games = data.get('games', 0)
+                rating = data.get('rating', 0)
+                rd = data.get('rd', 0)
+                prov = data.get('prov', False)
+                prog = data.get('prog', 0)
+
+                game_modes.append({
+                    'mode': mode,
+                    'games': games,
+                    'rating': rating,
+                    'rd': rd,
+                    'prov': prov,
+                    'prog': prog
+                })
+
+        # Ordena por número de jogos (decrescente)
+        game_modes.sort(key=lambda x: x['games'], reverse=True)
+
+        # Adiciona cada modalidade
+        for mode_data in game_modes:
+            mode_name = mode_data['mode'].capitalize()
+            rating = mode_data['rating']
+            games = mode_data['games']
+            prov = " (Provisorio)" if mode_data['prov'] else ""
+            prog = mode_data['prog']
+            prog_str = f" ({prog:+d})" if prog != 0 else ""
+
+            md_content += f"### {mode_name}\n\n"
+            md_content += f"- **Rating:** {rating}{prov}{prog_str}\n"
+            md_content += f"- **Partidas:** {games}\n"
+            md_content += f"- **RD (Rating Deviation):** {mode_data['rd']}\n\n"
+
+        # Salva em arquivo se filepath for fornecido
+        if filepath:
+            filepath_obj = Path(filepath)
+            filepath_obj.parent.mkdir(parents=True, exist_ok=True)
+            with open(filepath_obj, 'w', encoding='utf-8') as f:
+                f.write(md_content)
+
+        return md_content
+
     def download_games(
         self,
         since: Optional[int] = None,
